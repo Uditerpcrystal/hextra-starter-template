@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: ERP Crystal
 
 # import hextra as module
 module:
@@ -21,26 +21,35 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: About
-      pageRef: /about
+    - name: Blog
+      pageRef: /blog
       weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
+    - name: About
+      url: "https://erpcrystal.in/aboutus/#aboutus"
       weight: 3
-    - name: Search
+    - name: Contact ↗
+      url: "https://erpcrystal.in/contactuscreate/#contactus"
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
-    - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
-      params:
-        icon: github
-    - name: Twitter
+    - name: LinkedIn
       weight: 6
-      url: "https://twitter.com/"
+      url: "https://www.linkedin.com/company/erp-crystal"
+      params:
+        icon: linkedin
+    - name: YouTube
+      weight: 7
+      url: "https://www.youtube.com/@erpcrystal"
+      params:
+        icon: youtube
+    - name: Twitter
+      weight: 8
+      url: "https://x.com/erpcrystal"
       params:
         icon: x-twitter
+
 
 params:
   navbar:
